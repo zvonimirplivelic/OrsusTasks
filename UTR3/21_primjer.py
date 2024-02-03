@@ -1,0 +1,1 @@
+# Napišite program koji će učitati broj te ispisati sumu njegovih znamenaka
