@@ -4,7 +4,7 @@
 parni_brojevi = 0
 neparni_brojevi = 0
 
-broj_n = int(input("Unesite koliko brojeva želite unijeti: "))
+broj_n = int(input("\nUnesite koliko brojeva želite unijeti:\n "))
 
 for i in range (broj_n):
     unos_broja = int(input("Unesite broj: "))
@@ -13,5 +13,5 @@ for i in range (broj_n):
         parni_brojevi += 1
     else: neparni_brojevi += 1
 
-print(f"Broj parnih brojeva: {parni_brojevi}")
+print(f"\nBroj parnih brojeva: {parni_brojevi}")
 print(f"Broj neparnih brojeva: {neparni_brojevi}")

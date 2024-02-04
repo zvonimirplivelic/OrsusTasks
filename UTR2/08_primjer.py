@@ -5,8 +5,8 @@
 prvi_broj = int(input("Unesite prvi troznamenkasti broj: "))
 drugi_broj = int(input("Unesite drugi troznamenkasti broj: "))
 
-prva_znamenka = (drugi_broj // 100) % 10
-druga_znamenka = (drugi_broj // 10) % 10
+prva_znamenka = drugi_broj // 100
+druga_znamenka = drugi_broj // 10 % 10
 treća_znamenka = drugi_broj % 10
 
 obrnuti_drugi_broj = treća_znamenka * 100 + druga_znamenka * 10 + prva_znamenka
