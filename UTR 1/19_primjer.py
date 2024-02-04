@@ -2,7 +2,6 @@
 
 import math
 
-
 prvaKateta = float(input("Molim vas da unesete prvu katetu trokuta: "))
 drugaKateta = float(input("Molim vas da unesete drugu katetu trokuta: "))
 

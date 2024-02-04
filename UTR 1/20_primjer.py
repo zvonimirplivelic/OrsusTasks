@@ -10,4 +10,8 @@ hipotenuzaTrokuta = math.sqrt((prvaKateta**2) + (drugaKateta**2))
 opsegKružnice = 2 * (hipotenuzaTrokuta / 2) * math.pi
 povrsinaKruga = (hipotenuzaTrokuta/2)**2 * math.pi
 
-print(f"Prva kateta iznosi {prvaKateta}. Druga kateta iznosi {drugaKateta}. Hipotenuza je {hipotenuzaTrokuta}. Opseg kružnice je {opsegKružnice}. Površina kruga je {povrsinaKruga}")
+print(f"Prva kateta iznosi {prvaKateta}.\n" + 
+    f"Druga kateta iznosi {drugaKateta}.\n" +
+    f"Hipotenuza je {hipotenuzaTrokuta}.\n" +
+    f"Opseg kružnice je {opsegKružnice}.\n" +  
+    f"Površina kruga je {povrsinaKruga}\n")

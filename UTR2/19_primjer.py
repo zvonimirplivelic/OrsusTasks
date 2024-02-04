@@ -3,5 +3,13 @@
 
 prvi_broj = int(input("Unesite prvi broj: "))
 drugi_broj = int(input("Unesite drugi broj: "))
-operator = input("Unesite operator(+, -, *, /)")
+operator = input("Unesite operator(+, -, *, /, %): ")
 
+if operator == "+": rezultat = prvi_broj + drugi_broj
+elif operator == "-": rezultat = prvi_broj - drugi_broj
+elif operator == "*": rezultat = prvi_broj * drugi_broj
+elif operator == "/": rezultat = prvi_broj / drugi_broj
+elif operator == "%": rezultat = prvi_broj % drugi_broj
+else: print("Unesite ispravan operator!!!")
+
+print (f"\n{prvi_broj} {operator} {drugi_broj} = {rezultat}")

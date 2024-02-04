@@ -7,4 +7,4 @@ c = float(input("Unesite treći koeficijent kvadratne jednadžbe: "))
 
 formula_jednadžbe = float((b**2) - (4* a * c))
 
-print(f"D =  b*b - (4ac) za koordinate a = {a}, b = {b}, c = {c} je: {formula_jednadžbe}")
+print(f"D = b*b - (4ac) za koordinate a = {a}, b = {b}, c = {c} je: {formula_jednadžbe}")

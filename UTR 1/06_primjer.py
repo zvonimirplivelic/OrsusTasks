@@ -5,4 +5,4 @@ imeKnjige = input("Unesite ime knjige: ")
 imeAutora = input("Unesite ime autora knjige: ")
 godinaIzdavanja = input("Unesite godinu izdavanja knjige: ")
 
-print(f"Knjiga {imeKnjige} je napisana od strane {imeAutora} i izdana je {godinaIzdavanja}")
+print(f"Knjiga {imeKnjige} je napisana od strane {imeAutora} i izdana je {godinaIzdavanja}. godine.")

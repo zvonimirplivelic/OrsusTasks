@@ -10,8 +10,8 @@ for i in range (broj_n):
     unos_broja = int(input("Unesite broj: "))
 
     if(unos_broja % 2 == 0):
-        parni_brojevi = parni_brojevi + unos_broja
-    else: neparni_brojevi = neparni_brojevi * unos_broja
+        parni_brojevi +=  unos_broja
+    else: neparni_brojevi *=  unos_broja
 
 print(f"Broj parnih brojeva: {parni_brojevi}")
 print(f"Broj neparnih brojeva: {neparni_brojevi}")

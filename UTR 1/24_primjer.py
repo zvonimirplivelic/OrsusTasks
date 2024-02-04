@@ -5,4 +5,5 @@ popust = float(input("Molim vas da unesete postotak popusta na artikl: "))
 
 cijenaSaPopustom = cijenaKožneLopte - (cijenaKožneLopte * (1 / popust))
 
-print(f"Cijena kožne lopte je {cijenaKožneLopte}€. Korigirana cijena sa popustom od {popust}% je {cijenaSaPopustom}€")
+print(f"Cijena kožne lopte je {cijenaKožneLopte}€.\n" + 
+      f"Korigirana cijena sa popustom od {popust}% je {cijenaSaPopustom}€")

@@ -4,6 +4,6 @@ broj_x = int(input("Unesite željeni broj: "))
 rezultat = 0
 
 for broj_x in range (1, broj_x +1):
-    rezultat = rezultat + broj_x
+    rezultat += broj_x
 
 print(rezultat)

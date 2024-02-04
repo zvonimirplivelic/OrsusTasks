@@ -6,5 +6,5 @@ drugiBroj = int(input("Molim vas da unesete drugi broj: "))
 zbrojBrojeva = prviBroj + drugiBroj
 razlikaBrojeva = prviBroj - drugiBroj
 
-print(f"Zbroj brojeva je {zbrojBrojeva}")
-print(f"Razlika brojeva je {razlikaBrojeva}")
+print(f"Zbroj brojeva iznosi: {zbrojBrojeva}")
+print(f"Razlika brojeva iznosi: {razlikaBrojeva}")
