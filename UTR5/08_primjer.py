@@ -1,0 +1,2 @@
+# Napišite program koji će unositi prirodan broj n, te brojeve a i b, a zatim u listu spremiti n nasumično
+# odabranih brojeva iz intervala [a,b> . Program treba ispisati one od unesenih brojeva koji su parni.
