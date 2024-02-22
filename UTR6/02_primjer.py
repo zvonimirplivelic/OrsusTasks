@@ -4,6 +4,7 @@
 prvi_set = set(input("Unesi prvu riječ: "))
 drugi_set = set(input("Unesi drugu riječ: "))
 
-ukupno_slova = prvi_set & drugi_set
+ukupno_slova = prvi_set | drugi_set
 
+print(f"Broj istih slova u setovima: {len(ukupno_slova)}")
 print(f"Ista slova u setovima: {ukupno_slova}")

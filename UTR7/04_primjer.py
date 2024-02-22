@@ -12,5 +12,5 @@ print("Orginal: ",ljudi)
 ljudi.sort(key=lambda x: x[1], reverse=True)
 print("Sorted: ",ljudi)
 
-print(f"Najstarija osoba je: {o1[0]}\n" +
-      f"Najmlađa osoba ima {2024 - o2[1]} godine")
+print(f"Najstarija osoba je: {ljudi[(len(ljudi) - 1)]}\n" +
+      f"Najmlađa osoba ima {2024 - ljudi[0][1]} godine")

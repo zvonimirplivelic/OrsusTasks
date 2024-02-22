@@ -22,4 +22,4 @@ for set in range(0, unos_broj_setova):
 
 print(f"Rezultat meča A protiv B je {set_a} : {set_b}")
 
-    
+     

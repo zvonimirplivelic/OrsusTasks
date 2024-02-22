@@ -4,6 +4,7 @@
 prvi_set = set(input("Unesi prvu riječ: "))
 drugi_set = set(input("Unesi drugu riječ: "))
 
-ukupno_slova = prvi_set ^ drugi_set
+ukupno_slova = prvi_set & drugi_set
 
-print(f"Različita slova u setovima: {ukupno_slova}")
+print(f"Ukupni broj istih znakova koji se nalaze u tim riječima: {len(ukupno_slova)}\n" +
+      f"Slova koja su zajednička su: {ukupno_slova}")
