@@ -19,7 +19,7 @@ class Film:
         self.trajanje = trajanje
 
     def informacije(self):
-        print(f"Film: {self.naslov}\nRedatelj: {self.redatelj}\nGodina izdanja: {self.godina_izdanja}\nTrajanje: {self.trajanje} min")
+        print(f"\nFilm: {self.naslov}\nRedatelj: {self.redatelj}\nGodina izdanja: {self.godina_izdanja}\nTrajanje: {self.trajanje} min")
 
 class Videoteka:
     def __init__(self, naziv):
@@ -28,18 +28,18 @@ class Videoteka:
 
     def dodaj_film(self, film):
         self.filmovi.append(film)
-        print(f"Film '{film.naslov}' dodan u videoteku.")
+        print(f"\nFilm '{film.naslov}' dodan u videoteku.")
 
     def pretrazi_filmove(self, naslov):
         for film in self.filmovi:
             if film.naslov == naslov:
                 film.informacije()
                 return
-        print(f"Film '{naslov}' nije pronađen u videoteci.")
+        print(f"\nFilm '{naslov}' nije pronađen u videoteci.")
 
-film1 = Film("Matrix", "Redatelj 1", 2020, 120)
-film2 = Film("Fight Club", "Redatelj 2", 2018, 95)
-film3 = Film("Ace Ventura", "Redatelj 3", 2015, 110)
+film1 = Film("Matrix", "Wachowski Sisters", 1999, 136)
+film2 = Film("Fight Club", "David Fincher", 1999, 139)
+film3 = Film("Ace Ventura", "Redatelj 3", 1994, 86)
 
 videoteka = Videoteka("Videoteka")
 
@@ -52,5 +52,5 @@ for film in videoteka.filmovi:
     film.informacije()
 
 print("\nPretraživanje filmova po naslovu:")
-videoteka.pretrazi_filmove("Film 1")
-videoteka.pretrazi_filmove("Nepostojeći film")
+videoteka.pretrazi_filmove("Matrix")
+videoteka.pretrazi_filmove("Forrest Gump")

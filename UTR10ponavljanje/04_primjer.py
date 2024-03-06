@@ -5,3 +5,13 @@
 # znakova. Zatim niz treba izmijeniti: iz niza izbaciti znakove praznine (blank), a preostale znakove zamijeniti njihovim ASCII
 # prethodnicima (ASCII prethodnike odrediti pomoću funkcije
 
+def prethodnik(znak):
+    return chr(ord(znak) - 1)
+
+niz_znakova = input("Unesite niz znakova: ")
+
+print("Uneseni niz:", niz_znakova)
+
+izmijenjen_niz = ''.join(prethodnik(znak) for znak in niz_znakova if znak != ' ')
+
+print("Izmijenjeni niz:", izmijenjen_niz)
