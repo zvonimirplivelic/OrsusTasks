@@ -3,12 +3,20 @@
 # bi puno teže“. Potrebno je ubaciti sliku Python loga.
 
 import tkinter as tk
+from PIL import Image, ImageTk
 
 root = tk.Tk()
-root.title("Zadatak 8")
+root.title("Python je super")
 
-message_text = f"Python je super programski jezik.\nJednostavan je i sintaksa nije komplicirana.\nU drugim programskim jezicima bilo bi puno teže"
+#image_path = "python.jpg"
+#image = Image.open(image_path)
+#image = image.resize(250, 250)
+#photo = ImageTk.PhotoImage(image)
 
-root.label = tk.Label(root, text=message_text)
+label = tk.Label(root, text="Python je super\nprogramski jezik.\nJednostavan je i sintaksa nije komplicirana.")
+label.pack(padx=20, pady=20)
+
+#image_label = tk.Label(root, image=photo)
+#image_label.image = photo  
 
 root.mainloop()
