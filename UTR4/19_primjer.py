@@ -2,7 +2,6 @@
 # te ispisuje najduži niz pobjeda (W - Win) ili poraza (L – Lose)
 # te ispisuje ukupan omjer pobjeda i poraza. 
 
-# Unos niza rezultata
 unos_rezultata = input("Unesite niz rezultata (npr. WWLLLWWL): ").upper()
 
 trenutni_niz = 1
