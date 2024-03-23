@@ -7,7 +7,6 @@ root = tk.Tk()
 root.title("Učimo Python")
 
 label = tk.Label(root, text="Učimo Python")
-label.pack(padx=32, pady=32)  # Postavljanje razmaka oko natpisa
+label.pack(padx=32, pady=32)
 
 root.mainloop()
-

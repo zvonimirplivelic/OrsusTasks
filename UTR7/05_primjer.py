@@ -7,12 +7,10 @@ osobe = [
     ("Ivan", 1986)
 ]
 
-# Unos godine
 unesena_godina = int(input("Unesite godinu: "))
 
 mlade_osobe = [(ime, godina) for ime, godina in osobe if godina > unesena_godina]
 
-# Ispis rezultata
 print(f"Osobe rođene nakon {unesena_godina} godine:")
 for osoba in mlade_osobe:
     print(f"{osoba[0]} {osoba[1]}")
