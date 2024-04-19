@@ -10,30 +10,24 @@
 # naziv grada te prosječnu godišnju temperaturu. Potrebno je riješiti zadatak koristeći rječnik.
 
 
-# Unos broja gradova
 n = int(input("Unesite broj gradova: "))
 
-# Rječnik za pohranu podataka o gradovima
 gradovi = {}
 
-# Unos podataka o gradovima
 for i in range(n):
     ime_grada = input("Unesite ime grada: ")
     temperature = list(map(int, input("Unesite prosječne temperature za svaki mjesec (razdvojene razmakom): ").split()))
     
-    # Računanje srednje godišnje temperature
     srednja_godisnja_temperatura = sum(temperature) / len(temperature)
     
-    # Dodavanje podataka u rječnik
     gradovi[ime_grada] = {
         'srednja_godisnja_temperatura': srednja_godisnja_temperatura,
         'temperature_po_mjesecima': temperature
     }
 
-# Sortiranje gradova po srednjoj godišnjoj temperaturi (silazno)
 sortirani_gradovi = sorted(gradovi.items(), key=lambda x: x[1]['srednja_godisnja_temperatura'], reverse=True)
 
-# Ispis rezultata
 print("Gradovi sortirani po srednjoj godišnjoj temperaturi (silazno):")
+
 for grad, podaci in sortirani_gradovi:
     print(f"{grad}:\t Temp po mjesecu{podaci['temperature_po_mjesecima']};\tSredišnja temp: {podaci['srednja_godisnja_temperatura']}")

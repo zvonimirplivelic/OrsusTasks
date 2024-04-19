@@ -22,4 +22,3 @@ for i in range(n):
         prosti_brojevi.append(unos)
 
 print(f"Svi uneseni brojevi su: {brojevi}\nProsti brojevi su: {prosti_brojevi}")
-      

@@ -41,4 +41,3 @@ vrh3 = Tocka(x3, y3)
 trokut = Trokut(vrh1, vrh2, vrh3)
 
 print(f"Površina trokuta iznosi: {trokut.povrsina():.2f}")
-ž
